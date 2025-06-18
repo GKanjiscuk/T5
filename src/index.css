@@ -1,0 +1,69 @@
+html,
+body,
+#root {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(236, 236, 236);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+  font-size: 15px;
+}
+
+.title {
+  color: rgb(236, 236, 236);
+  text-align: center;
+  font-family: "Inter", "Arial Narrow", Arial, sans-serif;
+}
+
+.subtitle {
+  color: rgb(72, 71, 71);
+  text-align: center;
+  font-family: "Inter", "Arial Narrow", Arial, sans-serif;
+}
+
+.titleCard {
+  color: rgb(69, 32, 23);
+  text-align: center;
+  font-family: "Inter", "Arial Narrow", Arial, sans-serif;
+  font-size: 150%;
+}
+
+.subtitleCard {
+  color: rgb(72, 71, 71);
+  text-align: center;
+  font-family: "Inter", "Arial Narrow", Arial, sans-serif;
+}
+
+.line {
+  border-top: 3px solid #000000;
+  margin: 30px auto;
+  width: 80%;
+}
+
+@media (max-width: 991.98px) {
+  .navbar > .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.estilo-card {
+  border: #003366;
+  background-color: f0f8ff;
+  max-height: "430px";
+  overflow: "hidden";
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "space-between";
+}
