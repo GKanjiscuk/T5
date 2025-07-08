@@ -14,7 +14,7 @@ Implementar um sistema completo de gestão para um pet shop, incluindo:
 ## 🚀 Tecnologias Utilizadas
 
 - **Frontend:** React + TypeScript + Bootstrap
-- **Backend:** Node.js + Express + MySQL
+- **Backend:** Node.js **v16.20.2** + Express + MySQL **8.1.0**
 - **Banco de Dados:** MySQL
 - **Ferramenta de Modelagem/Consulta:** MySQL Workbench
 
@@ -41,40 +41,34 @@ Implementar um sistema completo de gestão para um pet shop, incluindo:
 git clone https://github.com/SEU_USUARIO/petlovers5.git
 ```
 
-### 2. Instale as dependências do Frontend:
+### 2. Instale as dependências:
 
 ```bash
-cd frontend
 npm install
 ```
 
-### 3. Instale as dependências do Backend:
-
-```bash
-cd backend
-npm install
-```
-
-### 4. Configure o MySQL:
+### 3. Configure o MySQL:
 
 - Crie um banco chamado `petlovers`.
 - Importe o dump SQL do projeto (caso tenha o arquivo `.sql`).
 
-### 5. Rode o Backend:
+### 4. Rode o Backend **(EM TERMINAIS SEPARADOS)**:
 
 ```bash
 node app.js
 ```
 
-### 6. Rode o Frontend:
+### 5. Rode o Frontend **(EM TERMINAIS SEPARADOS)**:
 
 ```bash
 npm start
 ```
 
-### 7. Acesse:
+### 6. Acesse:
 
-[http://localhost:3000](http://localhost:3000)
+[http://localhost:3000](http://localhost:3000) para o Frontend
+e
+[[http://localhost:3001/](http://localhost:3001/) para as rotas GET do Backend
 
 ## 📡 Principais Rotas Backend (API REST)
 
