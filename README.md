@@ -68,7 +68,7 @@ npm start
 
 [http://localhost:3000](http://localhost:3000) para o Frontend
 e
-[[http://localhost:3001/](http://localhost:3001/) para as rotas GET do Backend
+[http://localhost:3001/](http://localhost:3001/) para as rotas GET do Backend
 
 ## 📡 Principais Rotas Backend (API REST)
 
